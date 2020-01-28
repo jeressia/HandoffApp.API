@@ -8,7 +8,7 @@ using Handoff.API.Models;
 
 namespace Handoff.API.DataAccess
 {
-    public class ProductRepository
+    public class ProductRepository : IProductRepository
     {
             string _connectionString = "Server=localhost;Database=Handoff;Trusted_Connection=True;";
 
@@ -22,5 +22,15 @@ namespace Handoff.API.DataAccess
                 }
             }
 
+        public IEnumerable<Product> GetProductsByCategory(string categoryName)
+        {
+            using (var db = new SqlConnection(_connectionString))
+            {
+                var sql = "Select * from Product;";
+                var param = "CategoryName = categoryName";
+                var products = db.Query<Product>(sql,param);
+                return products;
+            }
         }
+    }
     }

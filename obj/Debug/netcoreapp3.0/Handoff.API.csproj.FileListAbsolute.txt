@@ -36,3 +36,4 @@ C:\Users\Jeressia WIlliamson\source\repos\Handoff.API\Handoff.API\bin\Debug\netc
 C:\Users\Jeressia WIlliamson\source\repos\Handoff.API\Handoff.API\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\Jeressia WIlliamson\source\repos\Handoff.API\Handoff.API\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
 C:\Users\Jeressia WIlliamson\source\repos\Handoff.API\Handoff.API\obj\Debug\netcoreapp3.0\Handoff.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Jeressia WIlliamson\source\repos\Handoff.API\Handoff.API\bin\Debug\netcoreapp3.0\anonymous-cli-metrics.json

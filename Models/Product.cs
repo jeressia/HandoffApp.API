@@ -7,7 +7,7 @@ namespace Handoff.API.Models
 {
     public class Product
     {
-        public int ProductId { get; set; }
+        public int Id { get; set; }
         public int SportId { get; set; }
         public string ProductName { get; set; }
         public string ProductImageUrl { get; set; }
@@ -16,7 +16,7 @@ namespace Handoff.API.Models
         public int AgeGroupId { get; set; }
         public int ProductPrice { get; set; }
         public string IsAvailable { get; set; }
-        public string ProductDescription { get; set; }
+        public string ProductDescrption { get; set; }
         public int ProductOwnerId { get; set; }
     }
 }

@@ -18,13 +18,13 @@ namespace Handoff.Controllers
             return products;
         }
 
-       [HttpGet("category/{categoryName}")]
-       public IEnumerable<Product> GetProductsByCategory(string categoryName)
-       {
-           var repo = new ProductRepository();
-           var products = repo.GetProductsByCategory(categoryName);
-           return products;
-       }
+    //    [HttpGet("category/{categoryName}")]
+    //    public IEnumerable<Product> GetProductsByCategory(string categoryName)
+    //    {
+    //        var repo = new ProductRepository();
+    //        var products = repo.GetProductsByCategory(categoryName);
+    //        return products;
+    //    }
 
 
     //    [HttpGet("category/id/{categoryId}")]
